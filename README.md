@@ -1,6 +1,6 @@
 # WAservix Java / Kotlin client
 
-[![](https://jitpack.io/v/ellyj164/waservix-java.svg)](https://jitpack.io/#ellyj164/waservix-java)
+[![](https://jitpack.io/v/tekservixhq/waservix-java.svg)](https://jitpack.io/#tekservixhq/waservix-java)
 
 Java and Kotlin client for the [WAservix WhatsApp API Gateway](https://tekservix.com/waservix/).
 
@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ellyj164:waservix-java:v1.0.0")
+    implementation("com.github.tekservixhq:waservix-java:v1.0.1")
 }
 ```
 
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.ellyj164:waservix-java:v1.0.0'
+    implementation 'com.github.tekservixhq:waservix-java:v1.0.1'
 }
 ```
 
@@ -51,9 +51,9 @@ dependencies {
 </repositories>
 
 <dependency>
-  <groupId>com.github.ellyj164</groupId>
+  <groupId>com.github.tekservixhq</groupId>
   <artifactId>waservix-java</artifactId>
-  <version>v1.0.0</version>
+  <version>v1.0.1</version>
 </dependency>
 ```
 
@@ -151,10 +151,10 @@ WAservix is not Meta's official WhatsApp Business Platform. There's no business 
 
 ## More from Tekservix
 
-- [SMS Gora SMS Gateway](https://tekservix.com/smsgora/): send SMS through your own Android phones ([smsgora-java](https://github.com/ellyj164/smsgora-java))
+- [SMS Gora SMS Gateway](https://tekservix.com/smsgora/): send SMS through your own Android phones ([smsgora-java](https://github.com/tekservixhq/smsgora-java))
 - [AI Sales Agent](https://tekservix.com/ai-sales-agent): answers customers on WhatsApp and SMS using your website's content
 - [Website to App](https://tekservix.com/mobile-apps): turn your website into Android and iOS apps
-- WAservix is also available for Node.js (`npm install waservix`), Python (`pip install waservix`), PHP (`composer require tekservix/waservix`) and Go (`go get github.com/ellyj164/waservix-go`)
+- WAservix is also available for Node.js (`npm install waservix`), Python (`pip install waservix`), PHP (`composer require tekservix/waservix`) and Go (`go get github.com/tekservixhq/waservix-go`)
 
 ## License
 
