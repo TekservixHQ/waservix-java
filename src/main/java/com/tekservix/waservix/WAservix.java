@@ -29,7 +29,7 @@ import java.util.Map;
  * Docs: https://tekservix.com/waservix/docs/
  */
 public class WAservix {
-    public static final String VERSION = "1.0.1";
+    public static final String VERSION = "1.0.2";
     public static final String DEFAULT_BASE_URL = "https://tekservix.com/waservix/api";
 
     private static final Gson GSON = new Gson();

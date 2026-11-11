@@ -12,6 +12,26 @@ WAservix links your own WhatsApp number by QR code (the same way WhatsApp Web do
 - One small dependency (Gson)
 - Webhook check built in
 
+## Maven Central
+
+Gradle (Kotlin DSL):
+
+```kotlin
+implementation("com.tekservix:waservix:1.0.2")
+```
+
+Maven:
+
+```xml
+<dependency>
+  <groupId>com.tekservix</groupId>
+  <artifactId>waservix</artifactId>
+  <version>1.0.2</version>
+</dependency>
+```
+
+The JitPack coordinates below keep working.
+
 ## Install
 
 Add the JitPack repository, then the dependency.
