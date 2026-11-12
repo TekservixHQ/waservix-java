@@ -17,7 +17,7 @@ WAservix links your own WhatsApp number by QR code (the same way WhatsApp Web do
 Gradle (Kotlin DSL):
 
 ```kotlin
-implementation("com.tekservix:waservix:1.0.2")
+implementation("com.tekservix:waservix:1.0.3")
 ```
 
 Maven:
@@ -26,7 +26,7 @@ Maven:
 <dependency>
   <groupId>com.tekservix</groupId>
   <artifactId>waservix</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 </dependency>
 ```
 
