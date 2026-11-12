@@ -81,7 +81,7 @@ public class WAservixTest {
         client.onWhatsApp("+1555");
         assertEquals("/on-whatsapp/%2B1555", lastPath);
         client.getGroupMetadata("1203@g.us");
-        assertEquals("/groups/1203%40g.us/metadata", lastPath);
+        assertEquals("/groups/1203@g.us/metadata", lastPath);
         client.saveContact("+1", "A");
         assertEquals("A", lastBody.get("name").getAsString());
         client.connectSession(3);

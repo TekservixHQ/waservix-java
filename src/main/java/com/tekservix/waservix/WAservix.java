@@ -29,7 +29,7 @@ import java.util.Map;
  * Docs: https://tekservix.com/waservix/docs/
  */
 public class WAservix {
-    public static final String VERSION = "1.0.4";
+    public static final String VERSION = "1.0.5";
     public static final String DEFAULT_BASE_URL = "https://tekservix.com/waservix/api";
 
     private static final Gson GSON = new Gson();
@@ -179,7 +179,8 @@ public class WAservix {
 
     public JsonElement listGroups() { return request("GET", "/groups", null); }
 
-    public JsonElement getGroupMetadata(String groupJid) { return request("GET", "/groups/" + enc(groupJid) + "/metadata", null); }
+    /** Group ID ends in @g.us; it is sent as is because the WAservix API rejects an encoded "@". */
+    public JsonElement getGroupMetadata(String groupJid) { return request("GET", "/groups/" + groupJid.trim() + "/metadata", null); }
 
     // Sessions (need a personal access token, not a device key)
 
